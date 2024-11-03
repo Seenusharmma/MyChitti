@@ -48,7 +48,29 @@ function takeCommand(message){
     }
     else if(message.includes("who are you")){
         speak("i am virtual assistant ,created by Roshan Sir")
-    }else if(message.includes("open youtube")){
+    }
+
+     else if(message.includes("thank you")){
+        speak("you're welcome")
+    }
+    else if(message.includes("what is your iq")){
+        speak("high enough to know that the squre root 130,264, low enough to tell chessy jokes")
+    }
+    else if(message.includes("what do you like")){
+        speak("i like lot's of things we can play a game, i can find you a funfact, or we can late fate decide what rendom fun comes our way")
+    }
+    else if(message.includes("you are so cute")){
+        speak("thanks")
+    }
+    else if(message.includes("play falak tak song")){
+        speak("playing falaktak song...")
+        window.open("https://www.youtube.com/watch?v=vr8RaNuWjWc")
+    }
+    else if(message.includes("open java documentation")){
+        speak("opening java documentation by Oracle...")
+        window.open("https://docs.oracle.com/en/java/")
+    }
+    else if(message.includes("open youtube")){
         speak("opening youtube...")
         window.open("https://youtube.com/","_blank")
     }
