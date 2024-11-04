@@ -62,6 +62,27 @@ function takeCommand(message){
     else if(message.includes("you are so cute")){
         speak("thanks")
     }
+     else if(message.includes("i love you")){
+        speak("i love you too & you are very sweet...")
+    }
+        //Add new features......🔽
+    else if(message.includes("what is ai?")){
+        speak("Artificial intelligence on Wikipedia....")
+        window.open("https://en.wikipedia.org/wiki/Artificial_intelligence")
+    }
+    else if(message.includes("play emraan hashmi song.")){
+        speak("playing emran hashmi song...")
+        window.open("https://www.youtube.com/watch?v=n5Fg6_Ae0C0&list=PL_pnVDeVpBGXzcTK_YVTaFhOvN795aaeQ")
+    }
+    else if(message.includes("play new songs.")){
+        speak("playing new song...")
+        window.open("https://youtu.be/NX5yDs_TLqA?si=DmFarRbplWmuqpQW")
+    }
+    else if(message.includes("best web development course.")){
+        speak("opening in youtube...")
+        window.open("https://youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&si=6wAyDUJ-Es6SiImq")
+    }
+    //End......
     else if(message.includes("play falak tak song")){
         speak("playing falaktak song...")
         window.open("https://www.youtube.com/watch?v=vr8RaNuWjWc")
