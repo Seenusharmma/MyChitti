@@ -78,7 +78,7 @@ function takeCommand(message){
         speak("playing new song...")
         window.open("https://youtu.be/NX5yDs_TLqA?si=DmFarRbplWmuqpQW")
     }
-    else if(message.includes("best web development course")){
+    else if(message.includes("best full stack course")){
         speak("opening in youtube...")
         window.open("https://youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&si=6wAyDUJ-Es6SiImq")
     }
